@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+
+<h1>My Advent of Code</h1>
+    <div class="container">
+        {% for file in notebook_urls %}
+              <div class='complete day'>
+
+       <a href='{{file[1]}}'>{{file[0]}}</a>
+             </div>
+
+        {% endfor %}
+        {% for incomplete_day in days_remaining %}
+              <div class='day'>
+
+       <a href='{{incomplete_day}}'>{{incomplete_day}}</a>
+             </div>
+
+        {% endfor %}
+    </div>
+
+<div class="snowflakes" aria-hidden="true">
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+      ❅
+      </div>
+      <div class="snowflake">
+      ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+      <div class="snowflake">
+        ❅
+      </div>
+      <div class="snowflake">
+        ❆
+      </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+ipykernel
+jupyter
+ipython
+awscli==1.16.296
+Jinja2==2.10.3
